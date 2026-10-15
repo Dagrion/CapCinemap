@@ -257,7 +257,7 @@
       ],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(255, 255, 255, 1)",
+        "fill-color": "rgba(7, 66, 65, 1)",
         "fill-opacity": {"base": 1, "stops": [[13, 0], [14, 1]]}
       }
     },
@@ -504,7 +504,7 @@
         ["all", ["==", "class", "transit"], ["!in", "brunnel", "tunnel"]]
       ],
       "layout": {"line-join": "round", "visibility": "visible"},
-      "paint": {"line-color": "#dddddd", "line-width": 3}
+      "paint": {"line-color": "rgba(9, 103, 102, 1)", "line-width": 3}
     },
     {
       "id": "railway_transit_dashline",
@@ -520,7 +520,7 @@
       ],
       "layout": {"line-join": "round", "visibility": "visible"},
       "paint": {
-        "line-color": "#fafafa",
+        "line-color": "rgba(7, 66, 65, 1)",
         "line-dasharray": [3, 3],
         "line-width": 2
       }
@@ -538,7 +538,7 @@
         ["all", ["==", "class", "rail"], ["has", "service"]]
       ],
       "layout": {"line-join": "round", "visibility": "visible"},
-      "paint": {"line-color": "#dddddd", "line-width": 3}
+      "paint": {"line-color": "rgba(9, 103, 102, 1)", "line-width": 3}
     },
     {
       "id": "railway_service_dashline",
@@ -555,7 +555,7 @@
       ],
       "layout": {"line-join": "round", "visibility": "visible"},
       "paint": {
-        "line-color": "#fafafa",
+        "line-color": "rgba(7, 66, 65, 1)",
         "line-dasharray": [3, 3],
         "line-width": 2
       }
