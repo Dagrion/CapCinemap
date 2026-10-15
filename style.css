@@ -10,3 +10,30 @@ body {
     width: 100%;
     height: 100vh;
 }
+
+.location-popup h2 {
+    margin: 0 0 0.25rem;
+    font-size: 1.05rem;
+}
+
+.location-popup h3 {
+    margin: 0.75rem 0 0.35rem;
+    font-size: 0.85rem;
+}
+
+.location-popup p,
+.location-popup li {
+    margin: 0;
+    font-size: 0.85rem;
+    line-height: 1.4;
+}
+
+.location-popup .location-meta {
+    color: #555;
+    margin-bottom: 0.4rem;
+}
+
+.location-popup ul {
+    margin: 0;
+    padding-left: 1.1rem;
+}
