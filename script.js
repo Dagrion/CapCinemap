@@ -50,7 +50,7 @@ const initialLocation = locationFromHash();
 
 const map = new maplibregl.Map({
     container: "map",
-    style: "https://tiles.openfreemap.org/styles/liberty",
+    style: "./custom-style.json",
     center: initialLocation?.lngLat ?? defaultView.center,
     zoom: initialLocation?.zoom ?? defaultView.zoom
 });
