@@ -23,11 +23,11 @@
   "sources": {
     "openmaptiles": {
       "type": "vector",
-      "url": "https://api.maptiler.com/tiles/v3/tiles.json?key={key}"
+      "url": "https://tiles.openfreemap.org/planet"
     }
   },
   "sprite": "https://openmaptiles.github.io/positron-gl-style/sprite",
-  "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key={key}",
+  "glyphs": "https://tiles.openfreemap.org/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
