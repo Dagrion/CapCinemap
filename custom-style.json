@@ -144,7 +144,7 @@
       "paint": {
         "text-color": "rgb(157,169,177)",
         "text-halo-blur": 1,
-        "text-halo-color": "rgba(40, 40, 40, 1)",
+        "text-halo-color": "rgba(0, 121, 121, 1)",
         "text-halo-width": 1
       }
     },
@@ -156,8 +156,8 @@
       "minzoom": 12,
       "paint": {
         "fill-antialias": true,
-        "fill-color": "rgb(234, 234, 229)",
-        "fill-outline-color": "rgb(219, 219, 218)"
+        "fill-color": "rgba(7, 66, 65, 1)",
+        "fill-outline-color": "rgba(9, 103, 102, 1)"
       }
     },
     {
@@ -178,7 +178,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "line-color": "rgb(213, 213, 213)",
+        "line-color": "rgba(9, 103, 102, 1)",
         "line-opacity": 1,
         "line-width": {"base": 1.4, "stops": [[5.8, 0], [6, 3], [20, 40]]}
       }
@@ -201,7 +201,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "line-color": "rgb(234,234,234)",
+        "line-color": "rgba(7, 66, 65, 1)",
         "line-width": {"base": 1.4, "stops": [[4, 2], [6, 1.3], [20, 30]]}
       }
     },
@@ -219,7 +219,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "line-color": "hsl(0, 0%, 88%)",
+        "line-color": "rgba(9, 103, 102, 1)",
         "line-opacity": 1,
         "line-width": {"base": 1.55, "stops": [[13, 1.8], [20, 20]]}
       }
@@ -238,7 +238,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "line-color": "hsl(0, 0%, 88%)",
+        "line-color": "rgba(9, 103, 102, 1)",
         "line-opacity": 1,
         "line-width": {"base": 1.5, "stops": [[11, 6], [17, 55]]}
       }
@@ -279,7 +279,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "line-color": "rgba(255, 255, 255, 1)",
+        "line-color": "rgba(9, 103, 102, 1)",
         "line-opacity": 1,
         "line-width": {"base": 1.5, "stops": [[11, 4], [17, 50]]}
       }
@@ -292,7 +292,7 @@
       "source-layer": "transportation",
       "filter": ["all", ["==", "$type", "Polygon"], ["==", "class", "pier"]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-antialias": true, "fill-color": "rgb(242,243,240)"}
+      "paint": {"fill-antialias": true, "fill-color": "rgba(7, 66, 65, 1)"}
     },
     {
       "id": "road_pier",
@@ -303,7 +303,7 @@
       "filter": ["all", ["==", "$type", "LineString"], ["in", "class", "pier"]],
       "layout": {"line-cap": "round", "line-join": "round"},
       "paint": {
-        "line-color": "rgb(242,243,240)",
+        "line-color": "rgba(9, 103, 102, 1)",
         "line-width": {"base": 1.2, "stops": [[15, 1], [17, 4]]}
       }
     },
@@ -320,7 +320,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "line-color": "rgb(234, 234, 234)",
+        "line-color": "rgba(7, 66, 65, 1)",
         "line-opacity": 0.9,
         "line-width": {"base": 1.2, "stops": [[13, 1], [20, 10]]}
       }
@@ -343,7 +343,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "line-color": "hsl(0, 0%, 88%)",
+        "line-color": "rgba(9, 103, 102, 1)",
         "line-opacity": 0.9,
         "line-width": {"base": 1.55, "stops": [[13, 1.8], [20, 20]]}
       }
@@ -366,7 +366,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "line-color": "rgb(213, 213, 213)",
+        "line-color": "rgba(9, 103, 102, 1)",
         "line-dasharray": [12, 0],
         "line-width": {"base": 1.3, "stops": [[10, 3], [20, 23]]}
       }
@@ -389,7 +389,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "line-color": "#fff",
+        "line-color": "rgba(9, 103, 102, 1)",
         "line-width": {"base": 1.3, "stops": [[10, 2], [20, 20]]}
       }
     },
@@ -574,7 +574,7 @@
       ],
       "layout": {"line-join": "round", "visibility": "visible"},
       "paint": {
-        "line-color": "#dddddd",
+        "line-color": "#096766",
         "line-width": {"base": 1.3, "stops": [[16, 3], [20, 7]]}
       }
     },
@@ -592,7 +592,7 @@
       ],
       "layout": {"line-join": "round", "visibility": "visible"},
       "paint": {
-        "line-color": "#fafafa",
+        "line-color": "#074241",
         "line-dasharray": [3, 3],
         "line-width": {"base": 1.3, "stops": [[16, 2], [20, 6]]}
       }
@@ -670,9 +670,9 @@
         "visibility": "visible"
       },
       "paint": {
-        "text-color": "#bbb",
+        "text-color": "rgba(117, 129, 145, 1)",
         "text-halo-blur": 1,
-        "text-halo-color": "#fff",
+        "text-halo-color": "rgba(40, 40, 40, 1)",
         "text-halo-width": 2,
         "text-translate": [0, 0]
       }
@@ -701,7 +701,7 @@
       "paint": {
         "text-color": "rgb(117, 129, 145)",
         "text-halo-blur": 1,
-        "text-halo-color": "hsl(0, 0%, 100%)",
+        "text-halo-color": "rgba(22, 22, 22, 1)",
         "text-halo-width": 1,
         "text-translate": [0, 2]
       }
@@ -791,7 +791,7 @@
       "paint": {
         "text-color": "rgb(117, 129, 145)",
         "text-halo-blur": 1,
-        "text-halo-color": "rgba(40, 40, 40, 1)",
+        "text-halo-color": "rgba(16, 16, 16, 1)",
         "text-halo-width": 1
       }
     },
@@ -816,7 +816,7 @@
       "paint": {
         "text-color": "rgb(117, 129, 145)",
         "text-halo-blur": 1,
-        "text-halo-color": "rgb(242,243,240)",
+        "text-halo-color": "rgba(40, 40, 40, 1)",
         "text-halo-width": 1
       }
     },
@@ -1088,7 +1088,7 @@
           "base": 1,
           "stops": [[3, "rgb(157,169,177)"], [4, "rgb(153, 153, 153)"]]
         },
-        "text-halo-color": "rgba(40, 40, 40, 1)",
+        "text-halo-color": "rgba(29, 29, 29, 1)",
         "text-halo-width": 1.4,
         "text-translate-anchor": "map"
       }
